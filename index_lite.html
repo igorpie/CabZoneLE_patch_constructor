@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>A+ FX is the best! Are you confirm?</title>
+  <meta charset="utf-8"/>
+
+  <script type='text/javascript' src='./disk.js'></script>  
+  <script type='text/javascript' src='./my3.js'></script>
+  <script type='text/javascript' src='./js/jszip261.min.js'></script>
+</head>
+<body onload="start();">
+<h2> CabZone LE (Lite Edition) patch constructor </h2>
+<br/>
+  Select CabZone LE Impulse: <select id='list_fir'>  </select> &nbsp; &nbsp;  Or file:  <input type="file" id="file-input" />
+(wav pcm, mono, 24 bit, 48 kHz, uncompressed)
+<br/><br/><br/> 
+<!--  Select Impulse Pack: <select id='list_ipack'>  </select> &nbsp;&nbsp; -->
+  Select Amp Pack: <select id='list_apack'>  </select>  &nbsp;  &nbsp;   Select Amp: <select id='list_amp'>  </select>  <button onclick="save_file_pack();">Save Patch Pack with selected impulse </button>
+<br/><br/><br/> 
+
+ <button onclick="save_file_bin();">Save one Patch Bin (debug) </button>
+<br/> <br/>
+<button onclick="save_file_hex();">Save one Patch Hex</button>
+
+
+<!-- <h3>Contents of the file:</h3>
+<pre id="file-content"></pre> -->
+  
+</body>
+</html>
